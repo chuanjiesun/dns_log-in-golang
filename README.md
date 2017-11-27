@@ -3,7 +3,7 @@
   This program use gopacket to capture DNS REQUEST,and use beego ORM MYSQL to log in mysql database.
 
 # Requirement
-  `golang` `gopacket` `beego` `go-sql-driver`
+  `golang` `gopacket` `beego` `go-sql-driver` `libpcap-dev`
 
 # Test
 Test on Debian 
