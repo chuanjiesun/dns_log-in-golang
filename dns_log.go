@@ -22,7 +22,6 @@ var (
 	DstIP    	string
 )
 
-
 //ALTER TABLE `dns_log` CHANGE `id` `id` INT( 11 ) NOT NULL AUTO_INCREMENT 
 type Dnslog struct{
 	Id 						int 			`orm:"auto"`//`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY
@@ -44,8 +43,6 @@ func  get_time() string{
 	fmt.Println(time_now)
 	return time_now
 }
-
-
 
 func init_database(){
 	db_user := "root"
@@ -207,22 +204,8 @@ func main() {
 
 			}
 		}
-
 		if err != nil {
 			fmt.Println("  Error encountered:", err)
 		}
 	}
 }
-
-
-/*
-						// ------------------------
-						//     DNS Record Detected
-						//     DNS OpCode:  0
-						//     DNS ResponseCode:  Non-Existent Domain
-						//     DNS # Answers:  0
-						//     DNS Question:  _http._tcp.mirrors.tuna.tsinghua.edu.cn
-						//     DNS Endpoints:  192.168.1.1 10.0.4.15
-						// ------------------------
-				
-*/
