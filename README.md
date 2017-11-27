@@ -13,3 +13,10 @@ go run dns_log.go
 ```
 OR compile it to binary,and execute it.
 
+You should edit database configurations to adapt to yours. 
+`1. create a database`
+`2. the program will auto crate table and log the dns query`
+
+# There are screenshots
+[/chuanjiesun/dns_log-in-golang/blob/master/g1.JPG]
+
