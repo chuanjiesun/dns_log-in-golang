@@ -10,3 +10,5 @@ Test on Debian
 # Usage
 ```go
 go run dns_log.go
+OR compile it to binary,and execute it.
+
