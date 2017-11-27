@@ -18,5 +18,5 @@ You should edit database configurations to adapt to yours.
 `2. the program will auto crate table and log the dns query`
 
 # There are screenshots
-[https://github.com/chuanjiesun/dns_log-in-golang/blob/master/g1.JPG]
+[![]https://github.com/chuanjiesun/dns_log-in-golang/blob/master/g1.JPG]
 
