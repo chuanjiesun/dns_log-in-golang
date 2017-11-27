@@ -1,3 +1,4 @@
+//written by chuanjiesun@gmail.com
 //增加了一个Dot1Q的解析，在vlan里面没有这个老是报错
 package main
 
