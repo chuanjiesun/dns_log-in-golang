@@ -1,5 +1,5 @@
 # dns_log-in-golang
-  capture DNS QUERY  traffic ,written in golang,  support mirror mode(可镜像口抓取).   
+  capture DNS QUERY  traffic ,written in golang,  support mirror port(可镜像口抓取).   
   
   This program use gopacket to capture DNS REQUEST,and use beego ORM MYSQL to log into mysql database.
 
